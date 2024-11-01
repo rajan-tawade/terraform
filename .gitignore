@@ -6,3 +6,5 @@ google.json
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+.terraform.lock.hcl
