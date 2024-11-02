@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                bat 'terraform.exe plan'
+                bat 'C:\Users\Rajan\Downloads\terraform\terraform.exe plan'
             }
         }
     }
